@@ -1,0 +1,38 @@
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-04-23T07:34:00.690Z"}
+{"level":"error","message":"TestError :  Error: No tests found","timestamp":"2025-04-23T07:34:00.692Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-04-23T07:34:26.837Z"}
+{"level":"error","message":"TestError :  Error: No tests found","timestamp":"2025-04-23T07:34:26.839Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T07:34:41.800Z"}
+{"level":"info","message":"Test Case Started : has title","timestamp":"2025-04-23T07:34:42.142Z"}
+{"level":"info","message":"Test Case Completed : has title Status : passed","timestamp":"2025-04-23T07:34:45.963Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T07:48:41.398Z"}
+{"level":"info","message":"Test Case Started : has title","timestamp":"2025-04-23T07:48:41.747Z"}
+{"level":"info","message":"Test Case Completed : has title Status : passed","timestamp":"2025-04-23T07:49:13.883Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T07:50:42.055Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T07:50:42.403Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : passed","timestamp":"2025-04-23T07:50:51.816Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T07:56:09.494Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T07:56:09.858Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T07:56:16.424Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T07:56:16.766Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T07:56:23.014Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T07:56:23.358Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T07:56:29.508Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T07:59:27.704Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T07:59:28.043Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T07:59:34.527Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T08:01:26.602Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T08:01:26.947Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T08:01:33.721Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T08:26:35.549Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T08:26:35.902Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T08:26:43.134Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T10:49:07.808Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T10:49:08.165Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : failed","timestamp":"2025-04-23T10:49:18.284Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T10:51:08.467Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T10:51:08.807Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : passed","timestamp":"2025-04-23T10:51:12.830Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-23T10:52:46.803Z"}
+{"level":"info","message":"Test Case Started : Go To","timestamp":"2025-04-23T10:52:47.146Z"}
+{"level":"info","message":"Test Case Completed : Go To Status : passed","timestamp":"2025-04-23T10:52:51.281Z"}

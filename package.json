@@ -1,0 +1,25 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.14.1",
+    "eslint": "^9.25.1",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3",
+    "typescript-eslint": "^8.31.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ts-node": "^10.9.2"
+  }
+}
