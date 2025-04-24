@@ -1,12 +1,16 @@
 {
   "name": "Tester 2025",
-  "email": "tester@example.com",
+  "email": "tester2025@example.com",
+  "password": "test@2025",
+  "firstName": "tester",
+  "lastName": "2025",
+
   "address": {
-    "street": "123 Main St",
-    "city": "New York",
+    "street": "Main St",
+    "country": "Canada",
     "state": "NY",
-    "zip": "10001"
+    "city": "HCM",
+    "zip": "70000"
   },
-  "phone_numbers": "555-1234",
-  "password": "test@2025"
+  "phone_numbers": "123123123"
 }

@@ -13,7 +13,7 @@ import { Config } from "./src/config/config";
  * See https://playwright.dev/docs/test-configuration.
  */
 export default defineConfig({
-  testDir: "src/tests",
+  testDir: "src/e2e",
   testMatch: ["**/*.ts", "**/*.js"],
 
   //timeout

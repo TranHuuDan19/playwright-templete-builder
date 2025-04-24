@@ -1,10 +1,4 @@
-import test, {
-  BrowserContext,
-  Page,
-  expect,
-  Locator,
-  TestInfo,
-} from "@playwright/test";
+import test, { Page, expect, Locator, TestInfo } from "@playwright/test";
 import fs from "fs";
 import path from "path";
 

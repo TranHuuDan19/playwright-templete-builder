@@ -1,35 +1,58 @@
-import { Page, Locator } from "@playwright/test";
+import { Page, Locator, expect } from "@playwright/test";
 import { BasePage } from "../page/basePage";
 import { WebHelper } from "helper/web/webHelper";
 
 export class LoginPage extends BasePage {
   webHelper = new WebHelper(this.page);
-  readonly usernameFieldLocator: Locator;
+  readonly expect: LoginPageAssertion | undefined;
+  readonly emailFieldLocator: Locator;
   readonly passwordFieldLocator: Locator;
-  readonly submitButtonFieldLocator: Locator;
+  readonly loginButtonFieldLocator: Locator;
 
   constructor(page: Page) {
     super(page);
+    this.expect = new LoginPageAssertion(this);
 
-    this.usernameFieldLocator = this.page.locator("#username");
-    this.passwordFieldLocator = this.page.locator("#password");
-    this.submitButtonFieldLocator = this.page.locator('"Login"');
+    this.emailFieldLocator = this.page.locator(
+      "//input[@data-qa='login-email']"
+    );
+    this.passwordFieldLocator = this.page.locator(
+      "//input[@data-qa='login-password']"
+    );
+    this.loginButtonFieldLocator = this.page.locator(
+      "button[data-qa='login-button']"
+    );
   }
 
-  async setUsername(data: string): Promise<void> {
-    await this.webHelper.enterText(this.usernameFieldLocator, "name");
+  override async navigateTo(): Promise<void> {
+    await super.navigateTo("/login");
   }
 
-  async setPassword(data: string): Promise<void> {
-    await this.webHelper.enterText(this.passwordFieldLocator, "pass");
+  async setEmail(email: string): Promise<void> {
+    await this.webHelper.enterText(this.emailFieldLocator, email);
   }
 
-  async fillFormWithValidDetails(): Promise<void> {
-    await this.webHelper.enterText(this.usernameFieldLocator, "name");
-    await this.webHelper.enterText(this.passwordFieldLocator, "pass");
+  async setPassword(pass: string): Promise<void> {
+    await this.webHelper.enterText(this.passwordFieldLocator, pass);
   }
 
-  async submitForm(): Promise<void> {
-    await this.webHelper.click(this.submitButtonFieldLocator);
+  async fillFormWithValidDetails(email: string, pass: string): Promise<void> {
+    await this.setEmail(email);
+    await this.setPassword(pass);
+  }
+
+  async submitLoginForm(): Promise<void> {
+    await this.webHelper.click(this.loginButtonFieldLocator);
+  }
+}
+
+class LoginPageAssertion {
+  constructor(readonly loginPage: LoginPage) {}
+  async toBeOnLoginPage(): Promise<void> {
+    await expect(this.loginPage.page).toHaveURL("/login");
+  }
+
+  async toHaveTitle(title: string): Promise<void> {
+    await expect(this.loginPage.page).toHaveTitle(title);
   }
 }
