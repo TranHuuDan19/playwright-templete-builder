@@ -69,3 +69,286 @@
 {"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T04:33:56.431Z"}
 {"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T04:33:56.775Z"}
 {"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T04:34:01.586Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T07:38:51.492Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T07:38:51.851Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T07:38:56.740Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:19:44.042Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:19:44.386Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:19:49.469Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:22:11.054Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:22:11.418Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : interrupted","timestamp":"2025-04-24T08:22:33.229Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:28:09.051Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:28:09.407Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:28:13.783Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:36:53.379Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:36:53.766Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:36:58.087Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:53:31.522Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:53:31.889Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:53:37.123Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:55:14.448Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:55:14.815Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:55:18.909Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:57:09.706Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:57:10.074Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T08:58:06.694Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T08:58:07.075Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T08:58:11.010Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:01:05.817Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:01:06.191Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : timedOut","timestamp":"2025-04-24T09:02:00.288Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:03:42.003Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:03:42.376Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : timedOut","timestamp":"2025-04-24T09:04:37.203Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:06:55.248Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:06:55.618Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:06:59.565Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:06:59.614Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:08:42.525Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:08:42.919Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:08:47.620Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:08:47.724Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-04-24T09:15:22.474Z"}
+{"level":"error","message":"TestError :  Error: Playwright Test did not expect test.beforeAll() to be called here.\nMost common reasons include:\n- You are calling test.beforeAll() in a configuration file.\n- You are calling test.beforeAll() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.","timestamp":"2025-04-24T09:15:22.476Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:15:22.476Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:16:11.130Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:16:11.485Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:16:16.659Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:16:16.777Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:22:51.319Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:22:51.693Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:22:55.969Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:22:56.120Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:25:47.178Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:25:47.528Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:25:52.334Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:25:52.362Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:31:10.662Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:31:11.030Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:31:15.323Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:31:43.021Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:31:43.424Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:31:48.542Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:32:35.358Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:32:35.714Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:32:41.026Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:33:53.671Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:33:54.025Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:33:58.392Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:35:49.691Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:35:50.046Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:35:54.387Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:39:53.037Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:39:53.386Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:39:58.266Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:41:51.111Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:41:51.475Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:41:56.203Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:42:18.783Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:42:19.134Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:42:23.251Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:43:36.204Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:43:36.559Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:43:41.016Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:48:13.714Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:48:14.065Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:48:18.357Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:49:32.805Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:49:33.177Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:49:37.736Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:50:32.517Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:50:32.872Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:50:37.116Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:50:52.315Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:50:52.681Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:50:56.725Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:52:57.488Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:52:57.845Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:53:02.239Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T09:53:46.026Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T09:53:46.403Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T09:53:51.347Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:00:13.976Z"}
+{"level":"info","message":"Test Case Started : ","timestamp":"2025-04-24T10:00:14.335Z"}
+{"level":"info","message":"Test Case Completed :  Status : passed","timestamp":"2025-04-24T10:00:16.472Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:05:24.425Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:05:24.777Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:05:24.788Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:06:05.218Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:06:05.600Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:06:05.611Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:07:00.109Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:07:00.480Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:07:00.490Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:14:05.295Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:14:05.666Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:14:05.676Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:16:15.123Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:16:15.477Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:16:15.487Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:21:08.706Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:21:09.048Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : failed","timestamp":"2025-04-24T10:21:09.095Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:22:18.429Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:22:18.777Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : passed","timestamp":"2025-04-24T10:22:20.169Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:23:47.720Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:23:48.071Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : passed","timestamp":"2025-04-24T10:23:49.157Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:34:17.183Z"}
+{"level":"info","message":"Test Case Started : Open Google","timestamp":"2025-04-24T10:34:17.621Z"}
+{"level":"info","message":"Test Case Completed : Open Google Status : passed","timestamp":"2025-04-24T10:34:19.515Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:35:46.063Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T10:35:46.454Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T10:35:50.659Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:37:21.559Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T10:37:21.956Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T10:37:23.658Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:37:48.049Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T10:37:48.442Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T10:37:50.091Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:57:03.073Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T10:57:03.426Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-04-24T10:57:04.003Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-24T10:58:16.327Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-24T10:58:16.666Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-24T10:58:22.036Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T02:56:45.949Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T02:56:46.296Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T02:56:52.044Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:04:14.360Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:04:14.706Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:04:17.559Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:04:44.942Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:04:45.279Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:04:48.391Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:05:14.416Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:05:14.778Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:05:17.638Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:05:39.167Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:05:39.508Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:05:42.470Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:06:00.526Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:06:00.865Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:06:04.952Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-04-25T03:06:31.576Z"}
+{"level":"error","message":"TestError :  Error: duplicate test title \"End to End Login tests › Can Login with valid email and password\", first declared in login.spec.ts:43","timestamp":"2025-04-25T03:06:31.578Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:07:01.907Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:07:02.274Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:07:02.276Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:07:07.674Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:07:08.325Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:07:42.343Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:07:42.711Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:07:42.713Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:07:46.419Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:07:48.075Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:10:04.527Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:10:04.894Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:10:04.894Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:10:09.920Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:10:10.806Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:13:49.542Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:13:49.909Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:13:49.909Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:13:52.758Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:13:55.059Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:18:01.102Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:18:01.487Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:18:01.488Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : failed","timestamp":"2025-04-25T03:18:04.885Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-04-25T03:18:06.784Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:19:14.663Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:19:15.029Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:19:15.033Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : failed","timestamp":"2025-04-25T03:19:18.364Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-04-25T03:19:20.268Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:20:44.160Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:20:44.564Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:20:44.566Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:20:47.768Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:20:49.741Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:28:12.863Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:28:13.235Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:28:13.238Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:28:18.918Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:28:22.496Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:29:57.870Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:29:58.249Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:29:58.250Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:30:02.501Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:30:07.144Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:31:59.647Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:32:00.012Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:32:00.012Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:32:04.403Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:32:07.238Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:32:34.892Z"}
+{"level":"info","message":"Test Case Started : Can goto","timestamp":"2025-04-25T03:32:35.260Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:32:35.260Z"}
+{"level":"info","message":"Test Case Completed : Can goto Status : passed","timestamp":"2025-04-25T03:32:40.330Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:32:43.619Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:37:13.572Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:37:13.923Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:37:18.367Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:37:27.454Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:37:27.833Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:37:32.757Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:37:42.610Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:37:42.950Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:37:47.564Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:38:51.333Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:38:51.672Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:38:59.124Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:39:47.825Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:39:48.169Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-04-25T03:39:48.681Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-04-25T03:40:16.452Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:40:16.809Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:40:25.432Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T03:58:57.895Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T03:58:58.274Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T03:58:58.277Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T03:59:06.026Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T03:59:06.701Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:00:20.681Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:00:21.053Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:00:21.053Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:00:29.366Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:00:29.880Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:02:19.714Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:02:20.083Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:02:20.083Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:02:27.019Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:02:27.487Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:10:46.790Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:10:47.151Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:10:55.596Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:10:55.597Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:11:01.997Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:11:56.732Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:11:57.091Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-04-25T04:11:57.531Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:11:57.532Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : skipped","timestamp":"2025-04-25T04:11:57.532Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:12:16.986Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:12:17.327Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:12:22.906Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:12:22.907Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:12:26.649Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:13:17.045Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:13:17.385Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:13:25.397Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:13:25.397Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:13:32.384Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:14:21.933Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:14:22.277Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:14:30.800Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:14:30.801Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:14:37.122Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-04-25T04:15:00.427Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-04-25T04:15:00.804Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:15:00.806Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:15:08.812Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:15:10.272Z"}

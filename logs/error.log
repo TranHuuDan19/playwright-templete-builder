@@ -1,2 +1,10 @@
 {"level":"error","message":"TestError :  Error: No tests found","timestamp":"2025-04-23T07:34:00.692Z"}
 {"level":"error","message":"TestError :  Error: No tests found","timestamp":"2025-04-23T07:34:26.839Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:06:59.614Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:08:47.724Z"}
+{"level":"error","message":"TestError :  Error: Playwright Test did not expect test.beforeAll() to be called here.\nMost common reasons include:\n- You are calling test.beforeAll() in a configuration file.\n- You are calling test.beforeAll() in a file that is imported by the configuration file.\n- You have two different versions of @playwright/test. This usually happens\n  when one of the dependencies in your package.json depends on @playwright/test.","timestamp":"2025-04-24T09:15:22.476Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:15:22.476Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:16:16.777Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:22:56.120Z"}
+{"level":"error","message":"TestError :  TypeError: browser.close is not a function","timestamp":"2025-04-24T09:25:52.362Z"}
+{"level":"error","message":"TestError :  Error: duplicate test title \"End to End Login tests › Can Login with valid email and password\", first declared in login.spec.ts:43","timestamp":"2025-04-25T03:06:31.578Z"}

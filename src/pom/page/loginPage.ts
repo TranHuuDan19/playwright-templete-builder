@@ -8,6 +8,7 @@ export class LoginPage extends BasePage {
   readonly emailFieldLocator: Locator;
   readonly passwordFieldLocator: Locator;
   readonly loginButtonFieldLocator: Locator;
+  readonly errorMessageLocator: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -21,6 +22,9 @@ export class LoginPage extends BasePage {
     );
     this.loginButtonFieldLocator = this.page.locator(
       "button[data-qa='login-button']"
+    );
+    this.errorMessageLocator = this.page.locator(
+      "//p[normalize-space()='Your email or password is incorrect!']"
     );
   }
 
@@ -47,6 +51,7 @@ export class LoginPage extends BasePage {
 }
 
 class LoginPageAssertion {
+  page: LoginPage | undefined;
   constructor(readonly loginPage: LoginPage) {}
   async toBeOnLoginPage(): Promise<void> {
     await expect(this.loginPage.page).toHaveURL("/login");
@@ -54,5 +59,11 @@ class LoginPageAssertion {
 
   async toHaveTitle(title: string): Promise<void> {
     await expect(this.loginPage.page).toHaveTitle(title);
+  }
+
+  async errorMessageShow(): Promise<void> {
+    await expect(this.loginPage.errorMessageLocator).toContainText(
+      "Your email or password is incorrect!"
+    );
   }
 }
