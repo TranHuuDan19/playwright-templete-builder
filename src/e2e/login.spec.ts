@@ -40,22 +40,27 @@ test.describe("End to End Login tests", () => {
     await page.close();
   });
 
-  test("Can Login with valid email and password", async ({
-    loginPage,
-    homePage,
-  }) => {
-    await loginPage.navigateTo();
-    await loginPage.expect?.toBeOnLoginPage();
-    await loginPage.fillFormWithValidDetails(email, pass);
-    await loginPage.submitLoginForm();
-    await homePage.expect.toBeOnHomePage();
-  });
+  test(
+    "Can Login with valid email and password",
+    { tag: "@smoke" },
+    async ({ loginPage, homePage }) => {
+      await loginPage.navigateTo();
+      await loginPage.expect?.toBeOnLoginPage();
+      await loginPage.fillFormWithValidDetails(email, pass);
+      await loginPage.submitLoginForm();
+      await homePage.expect.toBeOnHomePage();
+    }
+  );
 
-  test("Can't Login with invalid email and password", async ({ loginPage }) => {
-    await loginPage.navigateTo();
-    await loginPage.expect?.toBeOnLoginPage();
-    await loginPage.fillFormWithValidDetails("email@gmail.com", "pass");
-    await loginPage.submitLoginForm();
-    await loginPage.expect?.errorMessageShow();
-  });
+  test(
+    "Can't Login with invalid email and password",
+    { tag: "@dev" },
+    async ({ loginPage }) => {
+      await loginPage.navigateTo();
+      await loginPage.expect?.toBeOnLoginPage();
+      await loginPage.fillFormWithValidDetails("email@gmail.com", "pass");
+      await loginPage.submitLoginForm();
+      await loginPage.expect?.errorMessageShow();
+    }
+  );
 });

@@ -352,3 +352,18 @@
 {"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-04-25T04:15:00.806Z"}
 {"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-04-25T04:15:08.812Z"}
 {"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-04-25T04:15:10.272Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-05-05T03:42:40.646Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-05-05T03:42:41.010Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-05-05T03:42:48.620Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-05-05T03:42:48.622Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-05-05T03:42:54.681Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-05-05T03:48:03.394Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-05-05T03:48:03.743Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-05-05T03:48:12.312Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-05-05T03:48:12.312Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-05-05T03:48:18.354Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-05-05T03:51:42.573Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-05-05T03:51:42.919Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-05-05T03:51:50.233Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-05-05T03:51:50.234Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : skipped","timestamp":"2025-05-05T03:51:50.234Z"}
