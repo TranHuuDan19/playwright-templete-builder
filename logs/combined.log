@@ -367,3 +367,13 @@
 {"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : failed","timestamp":"2025-05-05T03:51:50.233Z"}
 {"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-05-05T03:51:50.234Z"}
 {"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : skipped","timestamp":"2025-05-05T03:51:50.234Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-06-19T07:33:47.818Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-06-19T07:33:48.776Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-06-19T07:33:58.240Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-06-19T07:33:58.241Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-06-19T07:34:04.431Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-06-19T07:37:26.790Z"}
+{"level":"info","message":"Test Case Started : Can Login with valid email and password","timestamp":"2025-06-19T07:37:27.664Z"}
+{"level":"info","message":"Test Case Completed : Can Login with valid email and password Status : passed","timestamp":"2025-06-19T07:37:36.146Z"}
+{"level":"info","message":"Test Case Started : Can't Login with invalid email and password","timestamp":"2025-06-19T07:37:36.146Z"}
+{"level":"info","message":"Test Case Completed : Can't Login with invalid email and password Status : passed","timestamp":"2025-06-19T07:37:43.338Z"}
