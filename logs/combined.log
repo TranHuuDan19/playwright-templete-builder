@@ -499,3 +499,22 @@
 {"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-06-26T04:27:20.650Z"}
 {"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-06-26T04:27:21.000Z"}
 {"level":"info","message":"Test Case Completed : Test Case 01: Register Status : passed","timestamp":"2025-06-26T04:27:43.314Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-06-26T05:04:17.284Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-06-26T05:04:17.976Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-06-26T05:04:20.870Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-06-26T05:04:21.591Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-06-26T05:04:23.827Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-06-26T05:05:48.985Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-06-26T05:05:49.646Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-06-26T05:05:52.728Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-06-26T05:05:53.548Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-06-26T05:05:56.484Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-06-26T05:07:39.171Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-06-26T05:07:39.522Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-06-26T05:07:42.302Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-06-26T05:10:05.938Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-06-26T05:10:06.337Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-06-26T05:10:09.275Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-06-26T05:18:39.791Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-06-26T05:18:40.145Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-06-26T05:18:51.821Z"}
