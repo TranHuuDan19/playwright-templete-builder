@@ -2,12 +2,10 @@ import { defineConfig, devices } from "@playwright/test";
 import { Config } from "./src/config/config";
 
 export default defineConfig({
+  globalSetup: require.resolve("src/config/global-setup.ts"),
   testDir: "src/e2e",
   //timeout
-  timeout: 50 * 1000,
-
-  /* Run tests in files in parallel */
-  fullyParallel: true,
+  timeout: 100 * 1000,
 
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
@@ -16,24 +14,20 @@ export default defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : Config.WORKERS,
 
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     [`./src/utils/report/CustomReporterConfig.ts`],
     ["html", { open: "always", host: "127.0.0.1", port: 5723 }],
   ],
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
-  use: {
-    /* Base URL to use in actions like `await page.goto('/')`. */
-    baseURL: Config.BASE_URL,
 
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+  use: {
+    baseURL: Config.BASE_URL,
+    storageState: "state.json",
     trace: "on-first-retry",
     screenshot: "only-on-failure",
     video: "retain-on-failure",
     headless: Config.HEADLESS_BROWSER,
   },
 
-  /* Configure projects for major browsers */
   projects: [
     {
       name: "chromium",
