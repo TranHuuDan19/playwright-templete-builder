@@ -5,26 +5,53 @@ import { WebHelper } from "helper/web/webHelper";
 export class LoginPage extends BasePage {
   webHelper = new WebHelper(this.page);
   readonly expect: LoginPageAssertion | undefined;
-  readonly emailFieldLocator: Locator;
-  readonly passwordFieldLocator: Locator;
+
+  //login
+  readonly loginTitleFieldLocator: Locator;
+  readonly loginEmailFieldLocator: Locator;
+  readonly loginPasswordFieldLocator: Locator;
   readonly loginButtonFieldLocator: Locator;
-  readonly errorMessageLocator: Locator;
+  readonly loginErrorMessageLocator: Locator;
+
+  //signup
+  readonly signupTitleFieldLocator: Locator;
+  readonly signupNameFieldLocator: Locator;
+  readonly signupEmailFieldLocator: Locator;
+  readonly signupButtonFieldLocator: Locator;
 
   constructor(page: Page) {
     super(page);
     this.expect = new LoginPageAssertion(this);
 
-    this.emailFieldLocator = this.page.locator(
+    //login
+    this.loginTitleFieldLocator = this.page.locator(
+      "//h2[normalize-space()='Login to your account']"
+    );
+    this.loginEmailFieldLocator = this.page.locator(
       "//input[@data-qa='login-email']"
     );
-    this.passwordFieldLocator = this.page.locator(
+    this.loginPasswordFieldLocator = this.page.locator(
       "//input[@data-qa='login-password']"
     );
     this.loginButtonFieldLocator = this.page.locator(
       "button[data-qa='login-button']"
     );
-    this.errorMessageLocator = this.page.locator(
+    this.loginErrorMessageLocator = this.page.locator(
       "//p[normalize-space()='Your email or password is incorrect!']"
+    );
+
+    //signup
+    this.signupTitleFieldLocator = this.page.locator(
+      "//h2[normalize-space()='New User Signup!']"
+    );
+    this.signupNameFieldLocator = this.page.locator(
+      "//input[@placeholder='Name']"
+    );
+    this.signupEmailFieldLocator = this.page.locator(
+      "//input[@data-qa='signup-email']"
+    );
+    this.signupButtonFieldLocator = this.page.locator(
+      "//button[normalize-space()='Signup']"
     );
   }
 
@@ -32,37 +59,51 @@ export class LoginPage extends BasePage {
     await super.navigateTo("/login");
   }
 
-  async setEmail(email: string): Promise<void> {
-    await this.webHelper.enterText(this.emailFieldLocator, email);
-  }
-
-  async setPassword(pass: string): Promise<void> {
-    await this.webHelper.enterText(this.passwordFieldLocator, pass);
-  }
-
-  async fillFormWithValidDetails(email: string, pass: string): Promise<void> {
-    await this.setEmail(email);
-    await this.setPassword(pass);
+  //login
+  async fillLoginFormWithValidDetails(
+    email: string,
+    pass: string
+  ): Promise<void> {
+    await this.webHelper.enterText(this.loginEmailFieldLocator, email);
+    await this.webHelper.enterText(this.loginPasswordFieldLocator, pass);
   }
 
   async submitLoginForm(): Promise<void> {
     await this.webHelper.click(this.loginButtonFieldLocator);
   }
+
+  //signup
+  async fillSignupFormWithValidDetails(
+    name: string,
+    email: string
+  ): Promise<void> {
+    await this.webHelper.enterText(this.signupNameFieldLocator, name);
+    await this.webHelper.enterText(this.signupEmailFieldLocator, email);
+  }
+
+  async submitSignupForm(): Promise<void> {
+    await this.webHelper.click(this.signupButtonFieldLocator);
+  }
 }
 
 class LoginPageAssertion {
-  page: LoginPage | undefined;
-  constructor(readonly loginPage: LoginPage) {}
+  private readonly webHelper: WebHelper | undefined;
+  constructor(readonly loginPage: LoginPage) {
+    this.webHelper = new WebHelper(loginPage.page);
+  }
+
   async toBeOnLoginPage(): Promise<void> {
-    await expect(this.loginPage.page).toHaveURL("/login");
+    await this.webHelper?.assertPageURL("/login");
   }
 
-  async toHaveTitle(title: string): Promise<void> {
-    await expect(this.loginPage.page).toHaveTitle(title);
+  async toHaveLoginTitle(): Promise<void> {
+    await this.webHelper?.assertPageTitle(
+      "Automation Exercise - Signup / Login"
+    );
   }
 
-  async errorMessageShow(): Promise<void> {
-    await expect(this.loginPage.errorMessageLocator).toContainText(
+  async loginErrorMessageShow(): Promise<void> {
+    await expect(this.loginPage.loginErrorMessageLocator).toContainText(
       "Your email or password is incorrect!"
     );
   }

@@ -91,43 +91,20 @@ export class WebHelper {
     });
   }
 
-  async elementContainText(
-    target: string,
-    expectedText: string
-  ): Promise<void> {
-    console.log(
-      `Asserts that element ${target} contains text ${expectedText}.`
-    );
-    const el = await this.webPage.locator(target);
+  async elementContainText(el: Locator, expectedText: string): Promise<void> {
     await expect(el).toContainText(expectedText);
   }
 
-  async elementHasText(target: string, expectedText: string): Promise<void> {
-    console.log(
-      `Asserts that element ${target} has expected text ${expectedText}.`
-    );
-    const el = await this.webPage.locator(target);
+  async elementHasText(el: Locator, expectedText: string): Promise<void> {
     await expect(el).toHaveText(expectedText);
   }
 
-  async elementIsVisible(target: string): Promise<void> {
-    console.log(`Asserts that element ${target} is visible.`);
-    expect(await this.webPage.locator(target)).toBeVisible();
+  async elementIsVisible(el: Locator): Promise<void> {
+    expect(await el).toBeVisible();
   }
 
-  async elementIsNotVisible(target: string): Promise<void> {
-    console.log(`Asserts that element ${target} is not visible.`);
-    expect(await this.webPage.locator(target)).toBeHidden();
-  }
-
-  async elementHasAttributeAndValue(
-    target: string,
-    attribute: string,
-    attributeVal: string
-  ): Promise<void> {
-    console.log(
-      `Asserts that '${target}' has a specific attribute '${attribute}' with the expected value '${attributeVal}'.`
-    );
+  async elementIsNotVisible(el: Locator): Promise<void> {
+    expect(await el).toBeHidden();
   }
 
   async acceptAlertBox(): Promise<void> {
@@ -237,6 +214,21 @@ export class WebHelper {
     }
 
     await el.isChecked();
+  }
+
+  async setRadioButton(el: Locator, value: string) {
+    const radio = el.locator(`input[type="radio"][value="${value}"]`);
+
+    if (radio) {
+      await radio.check();
+      await expect(radio).toBeChecked();
+    }
+  }
+
+  async setSelectOption(select: Locator, value: string) {
+    if (select) {
+      await select.selectOption(value);
+    }
   }
 
   async addStep(stepDescription: string, stepFunction: any): Promise<any> {
