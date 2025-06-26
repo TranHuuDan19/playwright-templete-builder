@@ -1,24 +1,19 @@
-import { Browser, BrowserContext, Page, chromium } from "@playwright/test";
 import { test } from "../fixture/pageFixture";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 01: Register", () => {
   test.describe.configure({ mode: "serial" });
 
-  let browser: Browser;
-  let context: BrowserContext;
-  let page: Page;
-
   //account information
   let title: string;
   let signupUsername: string;
   let signupEmail: string;
   let signupPassword: string;
-  let newsLetter: boolean;
-  let specialOffer: boolean;
   let day: string;
   let month: string;
   let year: string;
+  let newsLetter: boolean;
+  let specialOffer: boolean;
 
   //address information
   let firstName: string;
@@ -30,13 +25,12 @@ test.describe("Test Case 01: Register", () => {
   let zipcode: string;
   let phone: string;
 
-  test.beforeAll(async () => {
-    browser = await chromium.launch();
-    context = await browser.newContext();
-
+  test.beforeEach(async () => {
     //Load user credentials
     const json = new JsonReader("src/data/signupUser.json");
     const jsonData = json.readJsonFile();
+
+    console.log("--jsonData--", jsonData);
 
     if (jsonData) {
       //account information
@@ -44,11 +38,11 @@ test.describe("Test Case 01: Register", () => {
       signupUsername = json.getJsonValue(jsonData.account, "name");
       signupEmail = json.getJsonValue(jsonData.account, "email");
       signupPassword = json.getJsonValue(jsonData.account, "password");
-      newsLetter = json.getJsonValue(jsonData.account, "newsletter");
-      specialOffer = json.getJsonValue(jsonData.account, "specialOffer");
       day = json.getJsonValue(jsonData.account, "day");
       month = json.getJsonValue(jsonData.account, "month");
       year = json.getJsonValue(jsonData.account, "year");
+      newsLetter = json.getJsonValue(jsonData.account, "newsletter");
+      specialOffer = json.getJsonValue(jsonData.account, "specialOffer");
 
       //address information
       firstName = json.getJsonValue(jsonData.address, "firstName");
@@ -62,19 +56,6 @@ test.describe("Test Case 01: Register", () => {
     } else {
       console.error("User data not found!");
     }
-  });
-
-  test.afterAll(async () => {
-    await context.close();
-    await browser.close();
-  });
-
-  test.beforeEach(async () => {
-    page = await context.newPage();
-  });
-
-  test.afterEach(async () => {
-    await page.close();
   });
 
   test(
@@ -94,12 +75,13 @@ test.describe("Test Case 01: Register", () => {
 
       await signupPage.selectTitle(title);
       await signupPage.fillPassword(signupPassword);
-      await signupPage.checkOnCheckbox("newsLetter", newsLetter);
-      await signupPage.checkOnCheckbox("specialOffer", specialOffer);
 
       await signupPage.selectDate("day", day);
       await signupPage.selectDate("month", month);
       await signupPage.selectDate("year", year);
+
+      await signupPage.checkOnCheckbox("newsLetter", newsLetter);
+      await signupPage.checkOnCheckbox("specialOffer", specialOffer);
 
       //address
       await signupPage.fillAddressInformationDetails(

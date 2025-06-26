@@ -1,22 +1,21 @@
 {
   "account": {
     "title": "Mr",
-    "name": "Tester@2025",
-    "email": "Tester2025@example.com",
-    "password": "Test@2025@",
+    "name": "Louis Walker",
+    "email": "Karelle95@gmail.com",
+    "password": "eEGympd2hLQek1o",
     "day": "9",
     "month": "September",
     "year": "2019",
-    "newsletter": true,
+    "newsletter": false,
     "specialOffer": true
   },
   "address": {
     "firstName": "Tester",
     "lastName": "2025",
-    "company": "No Name",
     "street": "Main St",
     "country": "Canada",
-    "state": "NY",
+    "state": "ON",
     "city": "HCM",
     "zipcode": "70000",
     "phone": "123123123"
