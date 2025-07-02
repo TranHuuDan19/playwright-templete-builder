@@ -60,7 +60,7 @@ test.describe("Test Case 01: Register", () => {
 
   test(
     "Test Case 01: Register",
-    { tag: "@dev" },
+    { tag: "@smoke" },
     async ({ loginPage, signupPage, homePage, createdAccountPage }) => {
       await homePage.navigateTo();
       await homePage.expect.toBeOnHomePage();
