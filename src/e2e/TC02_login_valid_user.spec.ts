@@ -25,7 +25,7 @@ test.describe("Test Case 02: Login User with correct email and password", () => 
 
   test(
     "Test Case 02: Login User with correct email and password",
-    { tag: "@dev" },
+    { tag: "@regression" },
     async ({ loginPage, homePage }) => {
       await homePage.navigateTo();
       await homePage.expect.toBeOnHomePage();

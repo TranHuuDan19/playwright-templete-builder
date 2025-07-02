@@ -19,20 +19,17 @@ export default defineConfig({
     ["html", { open: "always", host: "127.0.0.1", port: 5723 }],
   ],
 
-  use: {
-    baseURL: Config.BASE_URL,
-    storageState: "state.json",
-    trace: "on-first-retry",
-    screenshot: "only-on-failure",
-    video: "retain-on-failure",
-    headless: Config.HEADLESS_BROWSER,
-  },
-
   projects: [
     {
       name: "chromium",
       use: {
         ...devices["Desktop Chrome"],
+        baseURL: Config.BASE_URL,
+        storageState: "state.json",
+        trace: "on-first-retry",
+        screenshot: "only-on-failure",
+        video: "retain-on-failure",
+        headless: Config.HEADLESS_BROWSER,
         deviceScaleFactor: undefined,
         viewport: null,
         launchOptions: {
