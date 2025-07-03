@@ -191,3 +191,19 @@
 {"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-02T04:51:20.830Z"}
 {"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-02T04:51:21.679Z"}
 {"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-02T04:51:32.777Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-07-03T03:36:33.022Z"}
+{"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:36:33.023Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-07-03T03:37:53.361Z"}
+{"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:37:53.362Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-07-03T03:39:01.098Z"}
+{"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:39:01.100Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-03T03:40:02.957Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-03T03:40:03.636Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:40:15.141Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-03T03:40:15.866Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:40:19.779Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-03T03:41:48.323Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-03T03:41:48.984Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:42:01.751Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-03T03:42:02.542Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:42:06.499Z"}

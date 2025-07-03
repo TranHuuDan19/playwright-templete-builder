@@ -5,8 +5,8 @@
   "scripts": {
     "test": "npx playwright test",
     "report": "npx playwright show-report",
-    "test-dev": "cross-env NODE_ENV='dev' npm run test && npm run report",
-    "test-prod": "cross-env NODE_ENV='prod' npm run test && npm run report",
+    "dev": "cross-env NODE_ENV='dev' npm run test && npm run report",
+    "prod": "cross-env NODE_ENV='prod' npm run test && npm run report",
     "dev-smoke": "cross-env NODE_ENV='dev' npx playwright test --grep @smoke && npm run report",
     "prod-smoke": "cross-env NODE_ENV='prod' npx playwright test --grep @smoke && npm run report",
     "dev-regression": "cross-env NODE_ENV='dev' npx playwright test --grep @regression && npm run report",
