@@ -1,16 +1,17 @@
 import { chromium, FullConfig } from "@playwright/test";
 import fs from "fs";
-import GenerateUsers from "../utils/generateData/signupUser";
+import generateUserInformation from "../utils/generateTestData/signupUser";
 
 async function globalSetup(config: FullConfig) {
   //generate user test data
-  const data = GenerateUsers();
-  fs.writeFileSync("src/data/signupUser.json", JSON.stringify(data, null, 2));
+  fs.writeFileSync(
+    "src/data-test/signupUser.json",
+    JSON.stringify(generateUserInformation(), null, 2)
+  );
 
   //config browser
   const { baseURL, storageState } = config.projects[0].use;
 
-  console.log("-----baseURL------", baseURL!);
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto(baseURL!);

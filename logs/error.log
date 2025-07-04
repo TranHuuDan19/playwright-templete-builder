@@ -20,3 +20,4 @@
 {"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:36:33.023Z"}
 {"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:37:53.362Z"}
 {"level":"error","message":"TestError :  Error: page.goto: Protocol error (Page.navigate): Cannot navigate to invalid URL\nCall log:\n\u001b[2m  - navigating to \"\", waiting until \"load\"\u001b[22m\n","timestamp":"2025-07-03T03:39:01.100Z"}
+{"level":"error","message":"TestError :  ReferenceError: user is not defined","timestamp":"2025-07-04T10:39:15.311Z"}
