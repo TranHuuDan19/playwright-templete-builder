@@ -1,4 +1,4 @@
-import { test } from "../fixture/pageFixture";
+import { test } from "../fixture/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 01: Register", () => {
@@ -27,10 +27,8 @@ test.describe("Test Case 01: Register", () => {
 
   test.beforeEach(async () => {
     //Load user credentials
-    const json = new JsonReader("src/data/signupUser.json");
+    const json = new JsonReader("src/data-test/signupUser.json");
     const jsonData = json.readJsonFile();
-
-    console.log("--jsonData--", jsonData);
 
     if (jsonData) {
       //account information
@@ -62,41 +60,78 @@ test.describe("Test Case 01: Register", () => {
     "Test Case 01: Register",
     { tag: "@smoke" },
     async ({ loginPage, signupPage, homePage, createdAccountPage }) => {
-      await homePage.navigateTo();
-      await homePage.expect.toBeOnHomePage();
-      await homePage.goToLoginPage();
-      await loginPage.expect?.toBeOnLoginPage();
-      await loginPage.fillSignupFormWithValidDetails(
-        signupUsername,
-        signupEmail
-      );
-      await loginPage.submitSignupForm();
-      await signupPage.expect?.toBeOnSignupPage();
+      await test.step("Navigate to home page", async () => {
+        await homePage.navigateTo();
+      });
+      await test.step("Verify stay on home page", async () => {
+        await homePage.expect.toBeOnHomePage();
+      });
+      await test.step("Navigate to login page", async () => {
+        await homePage.goToLoginPage();
+      });
+      await test.step("Verify stay on login page", async () => {
+        await loginPage.expect?.toBeOnLoginPage();
+      });
+      await test.step("Fill username and email on login page", async () => {
+        await loginPage.fillSignupFormWithValidDetails(
+          signupUsername,
+          signupEmail
+        );
+      });
+      await test.step("Submit signup form on login page", async () => {
+        await loginPage.submitSignupForm();
+      });
+      await test.step("Verify stay on signup page", async () => {
+        await signupPage.expect?.toBeOnSignupPage();
+      });
 
-      await signupPage.selectTitle(title);
-      await signupPage.fillPassword(signupPassword);
+      await test.step("Select title on signup page", async () => {
+        await signupPage.selectTitle(title);
+      });
+      await test.step("Fill password on signup page", async () => {
+        await signupPage.fillPassword(signupPassword);
+      });
 
-      await signupPage.selectDate("day", day);
-      await signupPage.selectDate("month", month);
-      await signupPage.selectDate("year", year);
+      await test.step("Select day on signup page", async () => {
+        await signupPage.selectDate("day", day);
+      });
+      await test.step("Select month on signup page", async () => {
+        await signupPage.selectDate("month", month);
+      });
+      await test.step("Select year on signup page", async () => {
+        await signupPage.selectDate("year", year);
+      });
 
-      await signupPage.checkOnCheckbox("newsLetter", newsLetter);
-      await signupPage.checkOnCheckbox("specialOffer", specialOffer);
+      await test.step("Check newsletter on signup page", async () => {
+        await signupPage.checkOnCheckbox("newsLetter", newsLetter);
+      });
+      await test.step("Check offer on signup page", async () => {
+        await signupPage.checkOnCheckbox("specialOffer", specialOffer);
+      });
 
       //address
-      await signupPage.fillAddressInformationDetails(
-        firstName,
-        lastName,
-        street,
-        country,
-        state,
-        city,
-        zipcode,
-        phone
-      );
-      await signupPage.submitCreateAccountForm();
-      await createdAccountPage.expect?.toBeOnCreatedAccountPage();
-      await createdAccountPage.expect?.toHaveCreatedAccountTitle();
+      await test.step("Fill address information on signup page", async () => {
+        await signupPage.fillAddressInformationDetails(
+          firstName,
+          lastName,
+          street,
+          country,
+          state,
+          city,
+          zipcode,
+          phone
+        );
+      });
+
+      await test.step("submit signup form on signup page", async () => {
+        await signupPage.submitCreateAccountForm();
+      });
+      await test.step("Verify stay on Created Account page", async () => {
+        await createdAccountPage.expect?.toBeOnCreatedAccountPage();
+      });
+      await test.step("Verify correct title on Created Account page", async () => {
+        await createdAccountPage.expect?.toHaveCreatedAccountTitle();
+      });
     }
   );
 });

@@ -1,3 +1,5 @@
+//This file is used for extending the test fixture from @playwright/test
+
 import { test as base } from "@playwright/test";
 import { CreatedAccountPage } from "pom/page/createdAccountPage";
 import { DeleteAccountPage } from "pom/page/deleteAccountPage";

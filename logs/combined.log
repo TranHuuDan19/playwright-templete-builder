@@ -207,3 +207,310 @@
 {"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:42:01.751Z"}
 {"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-03T03:42:02.542Z"}
 {"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-03T03:42:06.499Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-07-04T08:50:43.021Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T08:50:43.815Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T08:50:50.105Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T08:50:50.831Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T08:50:54.506Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T08:50:55.249Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T08:50:56.336Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T08:50:56.340Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T08:50:56.348Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T08:50:56.349Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T08:50:56.350Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T08:50:56.351Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T08:50:56.352Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T08:50:56.353Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T08:50:56.354Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T08:50:56.354Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T08:51:00.196Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T08:51:00.943Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T08:51:01.982Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T08:51:01.988Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T08:51:01.997Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T08:51:01.998Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T08:51:02.003Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T08:51:02.004Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T08:51:02.005Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T08:51:02.006Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T08:51:02.006Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T08:51:02.006Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T08:51:05.052Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T08:54:11.779Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T08:54:12.499Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T08:54:14.074Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T08:54:14.081Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T08:54:14.096Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T08:54:14.097Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T08:54:14.107Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T08:54:14.109Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T08:54:14.111Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T08:54:14.114Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T08:54:14.114Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T08:54:14.114Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T08:54:17.099Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T08:54:17.848Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T08:54:18.949Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T08:54:18.951Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T08:54:18.961Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T08:54:18.962Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T08:54:18.965Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T08:54:18.965Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T08:54:18.967Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T08:54:18.968Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T08:54:18.969Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T08:54:18.969Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T08:54:21.763Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T09:08:12.867Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T09:08:13.521Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:08:15.110Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:08:15.116Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:08:15.127Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:08:15.129Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T09:08:15.131Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T09:08:15.131Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T09:08:15.132Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T09:08:15.135Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T09:08:15.135Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T09:08:15.135Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T09:08:18.433Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T09:08:19.166Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:08:20.241Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:08:20.242Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:08:20.248Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:08:20.249Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T09:08:20.251Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T09:08:20.251Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T09:08:20.252Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T09:08:20.253Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T09:08:20.254Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T09:08:20.254Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : failed","timestamp":"2025-07-04T09:08:23.160Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T09:13:24.033Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T09:13:24.711Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:13:26.292Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:13:29.931Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:13:29.937Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:13:31.112Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T09:13:31.224Z"}
+{"level":"info","message":"Executing Step : Submit login form","timestamp":"2025-07-04T09:13:32.655Z"}
+{"level":"info","message":"Executing Step : Verify navigate to home page","timestamp":"2025-07-04T09:13:34.198Z"}
+{"level":"info","message":"Executing Step : Verify home page have logout button","timestamp":"2025-07-04T09:13:34.199Z"}
+{"level":"info","message":"Executing Step : Verify home page have delete account button","timestamp":"2025-07-04T09:13:34.201Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T09:13:34.201Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : passed","timestamp":"2025-07-04T09:13:34.596Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-07-04T09:35:44.191Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:35:44.894Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:35:46.491Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:35:49.508Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:35:49.517Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:35:51.249Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:35:51.467Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:35:52.901Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:35:54.037Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:35:54.156Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:35:54.905Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:35:55.628Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T09:35:56.341Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T09:35:57.052Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T09:35:57.767Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T09:35:58.550Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T09:35:59.275Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:36:01.770Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:36:02.510Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:36:03.492Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:36:06.577Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:36:06.581Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:36:08.047Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:36:08.061Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:36:09.506Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:36:10.775Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:36:10.790Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:36:11.548Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:36:12.276Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T09:36:13.003Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T09:36:13.728Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T09:36:14.459Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T09:36:15.245Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T09:36:15.977Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:36:19.048Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T09:36:19.923Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:36:20.980Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:36:24.099Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:36:24.108Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:36:25.302Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T09:36:25.312Z"}
+{"level":"info","message":"Executing Step : Submit login form on login page","timestamp":"2025-07-04T09:36:26.736Z"}
+{"level":"info","message":"Executing Step : Verify navigated to home page","timestamp":"2025-07-04T09:36:28.296Z"}
+{"level":"info","message":"Executing Step : Verify home page show logout button","timestamp":"2025-07-04T09:36:28.298Z"}
+{"level":"info","message":"Executing Step : Verify home page show delete account button","timestamp":"2025-07-04T09:36:28.299Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T09:36:28.300Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : passed","timestamp":"2025-07-04T09:36:28.693Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T09:41:17.927Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:41:18.650Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:41:20.205Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:41:23.474Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:41:23.481Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:41:24.802Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:41:24.888Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:41:26.317Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:41:27.458Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:41:27.528Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:41:28.270Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:41:28.993Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T09:41:29.707Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T09:41:30.421Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T09:41:31.129Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T09:41:31.893Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T09:41:32.612Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:42:12.579Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:42:13.434Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:42:14.539Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:42:16.910Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T09:50:44.670Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:50:45.350Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:50:46.867Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:50:50.235Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:50:50.241Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:50:52.000Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:50:52.061Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:50:53.489Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:50:54.583Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:50:54.777Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:50:55.517Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:50:56.241Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:50:56.601Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:50:57.345Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:50:58.278Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:51:01.449Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:51:01.454Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:51:02.773Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:51:02.788Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:51:04.243Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:51:05.572Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:51:05.589Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:51:06.327Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:51:07.049Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : failed","timestamp":"2025-07-04T09:51:07.690Z"}
+{"level":"info","message":"Test Suite Started :  , 1 tests","timestamp":"2025-07-04T09:52:55.217Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T09:52:55.943Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T09:52:57.338Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T09:53:00.667Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T09:53:00.673Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T09:53:01.811Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T09:53:01.972Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T09:53:03.514Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T09:53:04.680Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T09:53:05.021Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T09:53:05.769Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T09:53:06.492Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T09:53:07.205Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T09:53:07.918Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T09:53:08.629Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T09:53:09.393Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T09:53:10.118Z"}
+{"level":"info","message":"Executing Step : submit signup form on signup page","timestamp":"2025-07-04T09:53:15.846Z"}
+{"level":"info","message":"Executing Step : Verify stay on Created Account page","timestamp":"2025-07-04T09:53:18.145Z"}
+{"level":"info","message":"Executing Step : Verify correct title on Created Account page","timestamp":"2025-07-04T09:53:18.145Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : passed","timestamp":"2025-07-04T09:53:18.520Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-07-04T10:04:55.723Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T10:04:56.407Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:04:57.966Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:05:00.932Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:05:00.938Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:05:02.753Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T10:05:02.892Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T10:05:04.316Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T10:05:05.465Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T10:05:05.559Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T10:05:06.297Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T10:05:07.012Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T10:05:07.727Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T10:05:08.441Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T10:05:09.152Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T10:05:09.868Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T10:05:10.607Z"}
+{"level":"info","message":"Executing Step : submit signup form on signup page","timestamp":"2025-07-04T10:05:16.325Z"}
+{"level":"info","message":"Executing Step : Verify stay on Created Account page","timestamp":"2025-07-04T10:05:18.590Z"}
+{"level":"info","message":"Executing Step : Verify correct title on Created Account page","timestamp":"2025-07-04T10:05:18.590Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : passed","timestamp":"2025-07-04T10:05:18.875Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T10:05:18.881Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:05:19.308Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:05:22.808Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:05:22.810Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:05:24.028Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T10:05:24.093Z"}
+{"level":"info","message":"Executing Step : Submit login form on login page","timestamp":"2025-07-04T10:05:25.517Z"}
+{"level":"info","message":"Executing Step : Verify navigated to home page","timestamp":"2025-07-04T10:05:27.222Z"}
+{"level":"info","message":"Executing Step : Verify home page show logout button","timestamp":"2025-07-04T10:05:27.223Z"}
+{"level":"info","message":"Executing Step : Verify home page show delete account button","timestamp":"2025-07-04T10:05:27.224Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T10:05:27.225Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : passed","timestamp":"2025-07-04T10:05:27.610Z"}
+{"level":"info","message":"Test Suite Started :  , 0 tests","timestamp":"2025-07-04T10:39:15.310Z"}
+{"level":"error","message":"TestError :  ReferenceError: user is not defined","timestamp":"2025-07-04T10:39:15.311Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-07-04T10:40:00.668Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T10:40:01.383Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:40:02.939Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:40:06.946Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:40:06.957Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:40:08.977Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T10:40:09.162Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T10:40:10.646Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T10:40:11.778Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T10:40:11.976Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T10:40:12.725Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T10:40:13.451Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T10:40:14.168Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T10:40:14.881Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T10:40:15.593Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T10:40:16.306Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T10:40:17.017Z"}
+{"level":"info","message":"Executing Step : submit signup form on signup page","timestamp":"2025-07-04T10:40:22.741Z"}
+{"level":"info","message":"Executing Step : Verify stay on Created Account page","timestamp":"2025-07-04T10:40:24.947Z"}
+{"level":"info","message":"Executing Step : Verify correct title on Created Account page","timestamp":"2025-07-04T10:40:24.947Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : passed","timestamp":"2025-07-04T10:40:25.210Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T10:40:25.214Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:40:25.685Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:40:28.922Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:40:28.923Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:40:30.004Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T10:40:30.017Z"}
+{"level":"info","message":"Executing Step : Submit login form on login page","timestamp":"2025-07-04T10:40:31.444Z"}
+{"level":"info","message":"Executing Step : Verify navigated to home page","timestamp":"2025-07-04T10:40:33.071Z"}
+{"level":"info","message":"Executing Step : Verify home page show logout button","timestamp":"2025-07-04T10:40:33.072Z"}
+{"level":"info","message":"Executing Step : Verify home page show delete account button","timestamp":"2025-07-04T10:40:33.073Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T10:40:33.074Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : passed","timestamp":"2025-07-04T10:40:33.402Z"}
+{"level":"info","message":"Test Suite Started :  , 2 tests","timestamp":"2025-07-04T10:43:13.262Z"}
+{"level":"info","message":"Test Case Started : Test Case 01: Register","timestamp":"2025-07-04T10:43:13.937Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:43:15.424Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:43:19.387Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:43:19.392Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:43:20.698Z"}
+{"level":"info","message":"Executing Step : Fill username and email on login page","timestamp":"2025-07-04T10:43:20.830Z"}
+{"level":"info","message":"Executing Step : Submit signup form on login page","timestamp":"2025-07-04T10:43:22.272Z"}
+{"level":"info","message":"Executing Step : Verify stay on signup page","timestamp":"2025-07-04T10:43:23.415Z"}
+{"level":"info","message":"Executing Step : Select title on signup page","timestamp":"2025-07-04T10:43:23.580Z"}
+{"level":"info","message":"Executing Step : Fill password on signup page","timestamp":"2025-07-04T10:43:24.327Z"}
+{"level":"info","message":"Executing Step : Select day on signup page","timestamp":"2025-07-04T10:43:25.040Z"}
+{"level":"info","message":"Executing Step : Select month on signup page","timestamp":"2025-07-04T10:43:25.759Z"}
+{"level":"info","message":"Executing Step : Select year on signup page","timestamp":"2025-07-04T10:43:26.471Z"}
+{"level":"info","message":"Executing Step : Check newsletter on signup page","timestamp":"2025-07-04T10:43:27.181Z"}
+{"level":"info","message":"Executing Step : Check offer on signup page","timestamp":"2025-07-04T10:43:27.896Z"}
+{"level":"info","message":"Executing Step : Fill address information on signup page","timestamp":"2025-07-04T10:43:28.638Z"}
+{"level":"info","message":"Executing Step : submit signup form on signup page","timestamp":"2025-07-04T10:43:34.351Z"}
+{"level":"info","message":"Executing Step : Verify stay on Created Account page","timestamp":"2025-07-04T10:43:36.454Z"}
+{"level":"info","message":"Executing Step : Verify correct title on Created Account page","timestamp":"2025-07-04T10:43:36.455Z"}
+{"level":"info","message":"Test Case Completed : Test Case 01: Register Status : passed","timestamp":"2025-07-04T10:43:36.628Z"}
+{"level":"info","message":"Test Case Started : Test Case 02: Login User with correct email and password","timestamp":"2025-07-04T10:43:36.631Z"}
+{"level":"info","message":"Executing Step : Navigate to home page","timestamp":"2025-07-04T10:43:37.064Z"}
+{"level":"info","message":"Executing Step : Verify stay on home page","timestamp":"2025-07-04T10:43:40.185Z"}
+{"level":"info","message":"Executing Step : Navigate to login page","timestamp":"2025-07-04T10:43:40.187Z"}
+{"level":"info","message":"Executing Step : Verify stay on login page","timestamp":"2025-07-04T10:43:41.358Z"}
+{"level":"info","message":"Executing Step : Fill email and password on login page","timestamp":"2025-07-04T10:43:41.372Z"}
+{"level":"info","message":"Executing Step : Submit login form on login page","timestamp":"2025-07-04T10:43:42.801Z"}
+{"level":"info","message":"Executing Step : Verify navigated to home page","timestamp":"2025-07-04T10:43:44.501Z"}
+{"level":"info","message":"Executing Step : Verify home page show logout button","timestamp":"2025-07-04T10:43:44.503Z"}
+{"level":"info","message":"Executing Step : Verify home page show delete account button","timestamp":"2025-07-04T10:43:44.504Z"}
+{"level":"info","message":"Executing Step : Verify user login success and correct username","timestamp":"2025-07-04T10:43:44.505Z"}
+{"level":"info","message":"Test Case Completed : Test Case 02: Login User with correct email and password Status : passed","timestamp":"2025-07-04T10:43:44.814Z"}
