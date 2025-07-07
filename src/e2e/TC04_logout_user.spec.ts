@@ -1,7 +1,7 @@
 import { test } from "../fixture/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
-test.describe("Test Case 02: Login User with correct email and password", () => {
+test.describe("Test Case 04: Logout User", () => {
   test.describe.configure({ mode: "serial" });
   //data login
   let loginUsername: string;
@@ -23,7 +23,7 @@ test.describe("Test Case 02: Login User with correct email and password", () => 
   });
 
   test(
-    "Test Case 02: Login User with correct email and password",
+    "Test Case 04: Logout User",
     { tag: "@regression" },
     async ({ loginPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
@@ -53,11 +53,11 @@ test.describe("Test Case 02: Login User with correct email and password", () => 
       await test.step("Verify home page show logout button", async () => {
         await homePage.expect.toHaveLogoutLink();
       });
-      await test.step("Verify home page show delete account button", async () => {
-        await homePage.expect.toHaveDeleteAccountLink();
+      await test.step("Click logout button", async () => {
+        await homePage.goToLogoutPage();
       });
-      await test.step("Verify user login success and correct username", async () => {
-        await homePage.expect.toLoginAsUsername(loginUsername);
+      await test.step("Verify navigated to login page", async () => {
+        await loginPage.expect?.toBeOnLoginPage();
       });
     }
   );
