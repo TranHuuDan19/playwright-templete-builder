@@ -5,8 +5,9 @@ test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-logs/
-data-test/
+logs/combined.log
+logs/error.log
+src/data-test
 environments/
 state.*
 

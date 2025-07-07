@@ -1,23 +1,23 @@
 {
   "account": {
-    "title": "Mrs",
-    "name": "Luz Glover",
-    "email": "Mona.Littel69@yahoo.com",
-    "password": "3Lsg4_HxGzU9SL5",
-    "day": "18",
-    "month": "May",
-    "year": "2023",
-    "newsletter": true,
-    "specialOffer": true
+    "title": "Mr",
+    "name": "Ada Koelpin",
+    "email": "Brennan.Harber2@yahoo.com",
+    "password": "EyQdSz4RbEPe_U8",
+    "day": "15",
+    "month": "March",
+    "year": "2020",
+    "newsletter": false,
+    "specialOffer": false
   },
   "address": {
-    "firstName": "Norbert",
-    "lastName": "Block",
-    "street": "23575 Christine Glen",
-    "country": "Canada",
-    "state": "Nevada",
-    "city": "Port Fayville",
-    "zipcode": "ID",
-    "phone": "(563) 277-8090 x60669"
+    "firstName": "Antwan",
+    "lastName": "Jacobi",
+    "street": "84233 1st Street",
+    "country": "Israel",
+    "state": "New Mexico",
+    "city": "Fort Lance",
+    "zipcode": "IS",
+    "phone": "(776) 235-1513 x4934"
   }
 }
