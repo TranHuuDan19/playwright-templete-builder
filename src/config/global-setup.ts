@@ -5,7 +5,7 @@ import generateUserInformation from "../utils/generateTestData/signupUser";
 async function globalSetup(config: FullConfig) {
   //generate user test data
   fs.writeFileSync(
-    "src/data-test/signupUser.json",
+    "src/data-test/TC01_signupUser.json",
     JSON.stringify(generateUserInformation(), null, 2)
   );
 

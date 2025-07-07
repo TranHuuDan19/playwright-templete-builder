@@ -27,7 +27,7 @@ test.describe("Test Case 01: Register", () => {
 
   test.beforeEach(async () => {
     //Load user credentials
-    const json = new JsonReader("src/data-test/signupUser.json");
+    const json = new JsonReader("src/data-test/TC01_signupUser.json");
     const jsonData = json.readJsonFile();
 
     if (jsonData) {
@@ -58,7 +58,7 @@ test.describe("Test Case 01: Register", () => {
 
   test(
     "Test Case 01: Register",
-    { tag: "@smoke" },
+    { tag: "@regression" },
     async ({ loginPage, signupPage, homePage, createdAccountPage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();

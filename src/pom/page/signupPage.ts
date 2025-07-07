@@ -16,6 +16,7 @@ export class SignupPage extends BasePage {
   readonly signupYearFieldLocator: Locator;
   readonly signupNewsletterCheckboxLocator: Locator;
   readonly signupSpecialOfferCheckboxLocator: Locator;
+  readonly signupErrorMessageLocator: Locator;
 
   //address information
   readonly signupFirstNameFieldLocator: Locator;
@@ -50,6 +51,9 @@ export class SignupPage extends BasePage {
     );
     this.signupSpecialOfferCheckboxLocator = this.page.locator(
       "//input[@id='optin']"
+    );
+    this.signupErrorMessageLocator = this.page.locator(
+      "//p[normalize-space()='Email Address already exist!']"
     );
 
     //address information
@@ -160,5 +164,12 @@ class SignupPageAssertion {
 
   async toHaveSignupTitle(): Promise<void> {
     await this.webHelper?.assertPageTitle("Automation Exercise - Signup");
+  }
+
+  async signupExistEMailErrorMessageShow(): Promise<void> {
+    await this.webHelper?.assertText(
+      this.signupPage.signupErrorMessageLocator,
+      "Email Address already exist!"
+    );
   }
 }

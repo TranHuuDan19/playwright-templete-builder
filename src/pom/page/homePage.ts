@@ -12,6 +12,7 @@ export class HomePage extends BasePage {
   readonly loginLinkLocator: Locator;
   readonly logoutLinkLocator: Locator;
   readonly loggedUsernameLocator: Locator;
+  readonly contactUsLinkLocator: Locator;
 
   constructor(page: Page) {
     super(page);
@@ -27,6 +28,9 @@ export class HomePage extends BasePage {
     this.loginLinkLocator = this.page.locator("a[href='/login']");
     this.loggedUsernameLocator = this.page.locator(
       "//a[normalize-space()='Contact us']/parent::li/following-sibling::li"
+    );
+    this.contactUsLinkLocator = this.page.locator(
+      "//a[normalize-space()='Contact us']"
     );
   }
 
@@ -53,6 +57,9 @@ export class HomePage extends BasePage {
   }
   async goToLogoutPage(): Promise<void> {
     await this.logoutLinkLocator.click();
+  }
+  async goToContactUsPage(): Promise<void> {
+    await this.contactUsLinkLocator.click();
   }
 }
 

@@ -103,7 +103,8 @@ class LoginPageAssertion {
   }
 
   async loginErrorMessageShow(): Promise<void> {
-    await expect(this.loginPage.loginErrorMessageLocator).toContainText(
+    await this.webHelper?.assertText(
+      this.loginPage.loginErrorMessageLocator,
       "Your email or password is incorrect!"
     );
   }

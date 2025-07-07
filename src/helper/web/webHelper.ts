@@ -65,6 +65,10 @@ export class WebHelper {
     await expect(this.webPage).toHaveTitle(title);
   }
 
+  async assertText(el: Locator, text: string): Promise<void> {
+    await expect(el).toContainText(text);
+  }
+
   async takeFullPageScreenshot(
     imageName: string = `screenshot.png`
   ): Promise<void> {
@@ -108,13 +112,15 @@ export class WebHelper {
   }
 
   async acceptAlertBox(): Promise<void> {
-    console.log(`Handle Alert Box by clicking on Ok button`);
-    this.webPage.on("dialog", async (dialog) => dialog.dismiss());
+    this.webPage.on("dialog", async (dialog) => {
+      await dialog.accept();
+    });
   }
 
   async acceptConfirmBox(): Promise<void> {
-    console.log(`Accept Confirm Box by clicking on Ok button`);
-    this.webPage.on("dialog", async (dialog) => dialog.accept());
+    this.webPage.on("dialog", async (dialog) => {
+      await dialog.accept();
+    });
   }
 
   async dismissConfirmBox(): Promise<void> {
@@ -168,17 +174,12 @@ export class WebHelper {
     return download;
   }
 
-  async uploadFile(
-    filePath: string,
-    fileUploadLocator: string,
-    uploadBtnLocator: string
-  ) {
+  async uploadFile(filePath: string, fileUploadLocator: Locator) {
     if (!fs.existsSync(filePath)) {
       console.log(`File ${filePath} does not exist`);
       throw new Error(`File not found :${filePath}`);
     }
-    await this.webPage.setInputFiles(`${fileUploadLocator}`, filePath);
-    await this.webPage.locator(`${uploadBtnLocator}`).click();
+    await fileUploadLocator.setInputFiles(filePath);
   }
 
   async getAttribute(locator: string, attributeName: string): Promise<string> {

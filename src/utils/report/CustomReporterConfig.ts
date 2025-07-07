@@ -11,9 +11,7 @@ import {
 import logger from "./Logger";
 
 export default class CustomReporterConfig implements Reporter {
-  constructor(options: { customOption?: string } = {}) {
-    console.log(`playwright-framework-template ${options.customOption}`);
-  }
+  constructor(options: { customOption?: string } = {}) {}
 
   onBegin(config: FullConfig, suite: Suite): void {
     logger.log(
