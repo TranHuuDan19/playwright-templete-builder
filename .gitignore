@@ -1,13 +1,13 @@
 
 # Playwright
-/node_modules
-/test-results
+node_modules/
+test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/logs
-/data
-/environments
+logs/
+data-test/
+environments/
 state.*
 
 .env*

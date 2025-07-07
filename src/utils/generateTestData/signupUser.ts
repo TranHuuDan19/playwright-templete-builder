@@ -9,7 +9,7 @@ export default function generateUserInformation() {
       password: faker.internet.password(),
       day: faker.number.int({ min: 10, max: 30 }).toString(),
       month: faker.date.month(),
-      year: faker.number.int({ min: 2000, max: 2025 }).toString(),
+      year: faker.number.int({ min: 2000, max: 2020 }).toString(),
       newsletter: faker.datatype.boolean(),
       specialOffer: faker.datatype.boolean(),
     },
