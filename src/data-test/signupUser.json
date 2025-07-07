@@ -1,23 +1,23 @@
 {
   "account": {
     "title": "Mrs",
-    "name": "Cary Hudson V",
-    "email": "Haylee.Rath@yahoo.com",
-    "password": "caWUeISweaPMps6",
-    "day": "11",
-    "month": "December",
-    "year": "2012",
-    "newsletter": false,
+    "name": "Luz Glover",
+    "email": "Mona.Littel69@yahoo.com",
+    "password": "3Lsg4_HxGzU9SL5",
+    "day": "18",
+    "month": "May",
+    "year": "2023",
+    "newsletter": true,
     "specialOffer": true
   },
   "address": {
-    "firstName": "Paige",
-    "lastName": "Bergnaum",
-    "street": "8841 Wisozk Loop",
-    "country": "Israel",
-    "state": "Illinois",
-    "city": "Wuckertport",
-    "zipcode": "GD",
-    "phone": "1-278-935-1358 x115"
+    "firstName": "Norbert",
+    "lastName": "Block",
+    "street": "23575 Christine Glen",
+    "country": "Canada",
+    "state": "Nevada",
+    "city": "Port Fayville",
+    "zipcode": "ID",
+    "phone": "(563) 277-8090 x60669"
   }
 }
