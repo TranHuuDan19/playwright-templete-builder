@@ -1,5 +1,5 @@
 import { JsonReader } from "utils/json/jsonReader";
-import { test } from "../fixture/testOption";
+import { test } from "../fixtures/testOption";
 
 test.describe("Test Case 06: Contact Us Form", () => {
   test.describe.configure({ mode: "serial" });
@@ -28,7 +28,7 @@ test.describe("Test Case 06: Contact Us Form", () => {
 
   test(
     "Test Case 06: Contact Us Form",
-    { tag: "@smoke" },
+    { tag: "@regression" },
     async ({ contactUsPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();

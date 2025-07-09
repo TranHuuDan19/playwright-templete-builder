@@ -1,12 +1,15 @@
 //This file is used for extending the test fixture from @playwright/test
 
 import { test as base } from "@playwright/test";
-import { ContactUsPage } from "pom/page/contactUs";
-import { CreatedAccountPage } from "pom/page/createdAccountPage";
-import { DeleteAccountPage } from "pom/page/deleteAccountPage";
-import { HomePage } from "pom/page/homePage";
-import { LoginPage } from "pom/page/loginPage";
-import { SignupPage } from "pom/page/signupPage";
+import { ContactUsPage } from "pom/pages/contactUs";
+import { CreatedAccountPage } from "pom/pages/createdAccountPage";
+import { DeleteAccountPage } from "pom/pages/deleteAccountPage";
+import { HomePage } from "pom/pages/homePage";
+import { LoginPage } from "pom/pages/loginPage";
+import { ProductDetailPage } from "pom/pages/productDetailPage";
+import { ProductPage } from "pom/pages/productPage";
+import { SignupPage } from "pom/pages/signupPage";
+import { TestCasePage } from "pom/pages/testcasePage";
 
 type PageFixtures = {
   homePage: HomePage;
@@ -15,6 +18,9 @@ type PageFixtures = {
   deleteAccountPage: DeleteAccountPage;
   createdAccountPage: CreatedAccountPage;
   contactUsPage: ContactUsPage;
+  testcasePage: TestCasePage;
+  productPage: ProductPage;
+  productDetailPage: ProductDetailPage;
 };
 
 export const test = base.extend<PageFixtures>({
@@ -39,6 +45,15 @@ export const test = base.extend<PageFixtures>({
   },
   contactUsPage: async ({ page }, use) => {
     await use(new ContactUsPage(page));
+  },
+  testcasePage: async ({ page }, use) => {
+    await use(new TestCasePage(page));
+  },
+  productPage: async ({ page }, use) => {
+    await use(new ProductPage(page));
+  },
+  productDetailPage: async ({ page }, use) => {
+    await use(new ProductDetailPage(page));
   },
 });
 export { expect } from "@playwright/test";

@@ -69,6 +69,10 @@ export class WebHelper {
     await expect(el).toContainText(text);
   }
 
+  async assertContainText(largeString: string, text: string): Promise<void> {
+    expect(largeString).toContain(text);
+  }
+
   async takeFullPageScreenshot(
     imageName: string = `screenshot.png`
   ): Promise<void> {
