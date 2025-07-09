@@ -1,8 +1,8 @@
 import { defineConfig, devices } from "@playwright/test";
-import { Config } from "./src/config/config";
+import { Config } from "./src/configs/config";
 
 export default defineConfig({
-  globalSetup: require.resolve("src/config/global-setup.ts"),
+  globalSetup: require.resolve("src/configs/global-setup.ts"),
   testDir: "src/e2e",
   //timeout
   timeout: 100 * 1000,

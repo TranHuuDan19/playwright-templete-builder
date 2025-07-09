@@ -1,6 +1,6 @@
 import { Page, Locator, expect } from "@playwright/test";
-import { BasePage } from "../page/basePage";
-import { WebHelper } from "helper/web/webHelper";
+import { BasePage } from "./basePage";
+import { WebHelper } from "helpers/web/webHelper";
 
 export class LoginPage extends BasePage {
   webHelper = new WebHelper(this.page);

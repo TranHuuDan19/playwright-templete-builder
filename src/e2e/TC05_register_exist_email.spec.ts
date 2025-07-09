@@ -1,4 +1,4 @@
-import { test } from "../fixture/testOption";
+import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 05: Register user with existing email", () => {

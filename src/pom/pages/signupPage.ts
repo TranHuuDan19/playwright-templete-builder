@@ -1,4 +1,4 @@
-import { WebHelper } from "helper/web/webHelper";
+import { WebHelper } from "helpers/web/webHelper";
 import { BasePage } from "./basePage";
 import { expect, Locator, Page } from "@playwright/test";
 

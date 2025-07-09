@@ -1,12 +1,13 @@
 import { Page, Locator, expect } from "@playwright/test";
-import { BasePage } from "../page/basePage";
-import { WebHelper } from "helper/web/webHelper";
+import { BasePage } from "./basePage";
+import { WebHelper } from "helpers/web/webHelper";
 
 export class HomePage extends BasePage {
   readonly expect: HomePageAssertions;
   readonly homeLinkLocator: Locator;
   readonly productLinkLocator: Locator;
   readonly cartLinkLocator: Locator;
+  readonly testcaseLinkLocator: Locator;
   readonly signUpLinkLocator: Locator;
   readonly deleteLinkLocator: Locator;
   readonly loginLinkLocator: Locator;
@@ -22,6 +23,9 @@ export class HomePage extends BasePage {
     this.homeLinkLocator = this.page.locator("//a[normalize-space()='Home']");
     this.productLinkLocator = this.page.locator("//a[@href='/products']");
     this.cartLinkLocator = this.page.locator("a[href='/view_cart']");
+    this.testcaseLinkLocator = this.page.locator(
+      "//ul[@class='nav navbar-nav']//li[a[contains(text(),'Test Cases')]]"
+    );
     this.signUpLinkLocator = this.page.locator("a[href='/login']");
     this.deleteLinkLocator = this.page.locator("a[href='/delete_account']");
     this.logoutLinkLocator = this.page.locator("a[href='/logout']");
@@ -45,6 +49,9 @@ export class HomePage extends BasePage {
   }
   async goToCartPage(): Promise<void> {
     await this.cartLinkLocator.click();
+  }
+  async goToTestCasePage(): Promise<void> {
+    await this.testcaseLinkLocator.click();
   }
   async goToSignUpPage(): Promise<void> {
     await this.signUpLinkLocator.click();

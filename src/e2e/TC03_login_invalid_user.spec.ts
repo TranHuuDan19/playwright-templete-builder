@@ -1,4 +1,4 @@
-import { test } from "../fixture/testOption";
+import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 03: Login User with incorrect email and password", () => {
