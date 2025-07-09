@@ -8,7 +8,6 @@ test-results/
 logs/combined.log
 logs/error.log
 src/data-test
-environments/
 state.*
 
 .env*
