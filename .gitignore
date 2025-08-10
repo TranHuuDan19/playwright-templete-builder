@@ -7,10 +7,8 @@ test-results/
 /playwright/.cache/
 logs/combined.log
 logs/error.log
-src/data-test
 state.*
 
-.env*
 .flaskenv*
 !.env.project
 !.env.vault
