@@ -9,9 +9,8 @@ async function globalSetup(config: FullConfig) {
     JSON.stringify(generateUserInformation(), null, 2)
   );
 
-  //config browser
+  //initial chromium launch
   const { baseURL, storageState } = config.projects[0].use;
-
   const browser = await chromium.launch();
   const page = await browser.newPage();
   await page.goto(baseURL!);

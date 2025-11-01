@@ -1,17 +1,13 @@
 import * as dotenv from "dotenv";
 
-//select env
+//environment config
 switch (process.env.NODE_ENV) {
   case "dev": {
-    dotenv.config({
-      path: "./environments/dev.env",
-    });
+    dotenv.config({ path: "./environments/dev.env" });
     break;
   }
   case "prod": {
-    dotenv.config({
-      path: "./environments/prod.env",
-    });
+    dotenv.config({ path: "./environments/prod.env" });
     break;
   }
   default:
