@@ -8,6 +8,7 @@ test-results/
 logs/combined.log
 logs/error.log
 state.*
+src/data-test
 
 .flaskenv*
 !.env.project
