@@ -5,7 +5,7 @@ import { ContactUsPage } from "pom/pages/contactUs";
 import { CreatedAccountPage } from "pom/pages/createdAccountPage";
 import { DeleteAccountPage } from "pom/pages/deleteAccountPage";
 import { HomePage } from "pom/pages/homePage";
-import { LoginPage } from "pom/pages/loginPage";
+import LoginPage from "pom/pages/loginPage";
 import { ProductDetailPage } from "pom/pages/productDetailPage";
 import { ProductPage } from "pom/pages/productPage";
 import { SignupPage } from "pom/pages/signupPage";

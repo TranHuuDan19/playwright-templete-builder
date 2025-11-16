@@ -1,6 +1,6 @@
 # Playwright Template Builder From Scratch
 
-This is a repository that builds a template for the Playwright framework from scratch
+This is a repository that builds a template for the Playwright Framework from scratch
 
 ## Documents
 
@@ -35,4 +35,4 @@ See all documentation in https://playwright.dev/docs/intro
 
 ## Notes:
 
-I am working everyday to update this repository follow the latest of playwright. If you have any issue, please create the issue on the Issues tab, I will spend the time to fix it.
+If you have any issue, please create the issue on the Issues tab.

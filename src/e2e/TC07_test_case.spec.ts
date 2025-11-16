@@ -1,8 +1,6 @@
 import { test } from "../fixtures/testOption";
 
 test.describe("Test Case 07: Verify Test Case Page", () => {
-  test.describe.configure({ mode: "serial" });
-
   test(
     "Test Case 07: Verify Test Case Page",
     { tag: "@regression" },

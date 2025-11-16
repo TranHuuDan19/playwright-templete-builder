@@ -1,9 +1,9 @@
+import generateUserInformation from "utils/generateTestData/signupUser";
 import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
+import fs from "fs";
 
 test.describe("Test Case 01: Register", () => {
-  test.describe.configure({ mode: "serial" });
-
   //account information
   let title: string;
   let signupUsername: string;
@@ -26,6 +26,12 @@ test.describe("Test Case 01: Register", () => {
   let phone: string;
 
   test.beforeEach(async () => {
+    //generate user test data
+    fs.writeFileSync(
+      "src/data-test/TC01_signupUser.json",
+      JSON.stringify(generateUserInformation(), null, 2)
+    );
+
     //Load user credentials
     const json = new JsonReader("src/data-test/TC01_signupUser.json");
     const jsonData = json.readJsonFile();
@@ -58,7 +64,7 @@ test.describe("Test Case 01: Register", () => {
 
   test(
     "Test Case 01: Register",
-    { tag: "@regression" },
+    { tag: "@smoke" },
     async ({ loginPage, signupPage, homePage, createdAccountPage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();
@@ -66,8 +72,8 @@ test.describe("Test Case 01: Register", () => {
       await test.step("Verify stay on home page", async () => {
         await homePage.expect.toBeOnHomePage();
       });
-      await test.step("Navigate to login page", async () => {
-        await homePage.goToLoginPage();
+      await test.step("Click logout button", async () => {
+        await homePage.goToLogoutPage();
       });
       await test.step("Verify stay on login page", async () => {
         await loginPage.expect?.toBeOnLoginPage();

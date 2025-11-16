@@ -1,11 +1,10 @@
 import { expect, test } from "../fixtures/testOption";
 
 test.describe("Test Case 09: Search Products ", () => {
-  test.describe.configure({ mode: "serial" });
   let searchProductName: string = "dress";
   test(
     "Test Case 09: Search Products",
-    { tag: "@smoke" },
+    { tag: "@regression" },
     async ({ productPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();

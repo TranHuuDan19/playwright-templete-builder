@@ -2,7 +2,6 @@ import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 05: Register user with existing email", () => {
-  test.describe.configure({ mode: "serial" });
   //data login
   let signupUsername: string;
   let signupEmail: string;
@@ -24,7 +23,7 @@ test.describe("Test Case 05: Register user with existing email", () => {
 
   test(
     "Test Case 05: Register user with existing email",
-    { tag: "@regression" },
+    { tag: "@smoke" },
     async ({ loginPage, signupPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();

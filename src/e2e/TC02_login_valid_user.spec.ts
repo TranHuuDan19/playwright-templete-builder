@@ -2,7 +2,6 @@ import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 02: Login User with correct email and password", () => {
-  test.describe.configure({ mode: "serial" });
   //data login
   let loginUsername: string;
   let loginEmail: string;
@@ -24,7 +23,7 @@ test.describe("Test Case 02: Login User with correct email and password", () => 
 
   test(
     "Test Case 02: Login User with correct email and password",
-    { tag: "@regression" },
+    { tag: "@smoke" },
     async ({ loginPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();

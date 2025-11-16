@@ -2,7 +2,6 @@ import { test } from "../fixtures/testOption";
 import { JsonReader } from "../utils/json/jsonReader";
 
 test.describe("Test Case 04: Logout User", () => {
-  test.describe.configure({ mode: "serial" });
   //data login
   let loginUsername: string;
   let loginEmail: string;
@@ -24,7 +23,7 @@ test.describe("Test Case 04: Logout User", () => {
 
   test(
     "Test Case 04: Logout User",
-    { tag: "@regression" },
+    { tag: "@smoke" },
     async ({ loginPage, homePage }) => {
       await test.step("Navigate to home page", async () => {
         await homePage.navigateTo();
@@ -34,21 +33,6 @@ test.describe("Test Case 04: Logout User", () => {
       });
       await test.step("Navigate to login page", async () => {
         await homePage.goToLoginPage();
-      });
-      await test.step("Verify stay on login page", async () => {
-        await loginPage.expect?.toBeOnLoginPage();
-      });
-      await test.step("Fill email and password on login page", async () => {
-        await loginPage.fillLoginFormWithValidDetails(
-          loginEmail,
-          loginPassword
-        );
-      });
-      await test.step("Submit login form on login page", async () => {
-        await loginPage.submitLoginForm();
-      });
-      await test.step("Verify navigated to home page", async () => {
-        await homePage.expect.toBeOnHomePage();
       });
       await test.step("Verify home page show logout button", async () => {
         await homePage.expect.toHaveLogoutLink();

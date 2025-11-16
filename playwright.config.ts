@@ -4,13 +4,16 @@ import { Config } from "./src/configs/config";
 export default defineConfig({
   globalSetup: require.resolve("src/configs/global-setup.ts"),
   testDir: "src/e2e",
+
   //timeout
-  timeout: 100 * 1000,
+  timeout: process.env.MAX_TEST_RUNTIME ? Config.MAX_TEST_RUNTIME : 100 * 1000,
 
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
+
   /* Retry on CI only */
   retries: process.env.CI ? 2 : Config.RETRY_FAILED,
+
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : Config.WORKERS,
 

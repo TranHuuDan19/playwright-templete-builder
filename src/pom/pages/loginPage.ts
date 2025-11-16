@@ -2,7 +2,7 @@ import { Page, Locator, expect } from "@playwright/test";
 import { BasePage } from "./basePage";
 import { WebHelper } from "helpers/web/webHelper";
 
-export class LoginPage extends BasePage {
+export default class LoginPage extends BasePage {
   webHelper = new WebHelper(this.page);
   readonly expect: LoginPageAssertion | undefined;
 

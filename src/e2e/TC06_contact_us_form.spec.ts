@@ -2,7 +2,6 @@ import { JsonReader } from "utils/json/jsonReader";
 import { test } from "../fixtures/testOption";
 
 test.describe("Test Case 06: Contact Us Form", () => {
-  test.describe.configure({ mode: "serial" });
   //contact us data
   let contactUsName: string;
   let contactUsEmail: string;

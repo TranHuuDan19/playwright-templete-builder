@@ -1,23 +1,23 @@
 {
   "account": {
     "title": "Mr",
-    "name": "Lorenzo Harris",
-    "email": "Nikko_Abbott29@gmail.com",
-    "password": "B5QSQFpjUc6mAPq",
-    "day": "23",
-    "month": "December",
-    "year": "2010",
+    "name": "Neal Murphy",
+    "email": "Delphia.Kertzmann15@gmail.com",
+    "password": "ZDzGPYGMNuKzXav",
+    "day": "29",
+    "month": "April",
+    "year": "2020",
     "newsletter": true,
-    "specialOffer": true
+    "specialOffer": false
   },
   "address": {
-    "firstName": "Lilyan",
-    "lastName": "Considine",
-    "street": "9955 Fritsch Rue",
-    "country": "Israel",
-    "state": "Missouri",
-    "city": "Port Glenda",
-    "zipcode": "AW",
-    "phone": "1-865-326-6663 x77272"
+    "firstName": "Dane",
+    "lastName": "Kreiger",
+    "street": "90688 Bogisich Crossing",
+    "country": "Canada",
+    "state": "Montana",
+    "city": "Reichelfort",
+    "zipcode": "SZ",
+    "phone": "448.777.4876 x321"
   }
 }

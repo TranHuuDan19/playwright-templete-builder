@@ -2,7 +2,6 @@ import { ProductItemInfo } from "types/product.types";
 import { expect, test } from "../fixtures/testOption";
 
 test.describe("Test Case 08: Verify All Products and product detail page", () => {
-  test.describe.configure({ mode: "serial" });
   test(
     "Test Case 08: Verify All Products and product detail page",
     { tag: "@regression" },
